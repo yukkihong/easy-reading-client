@@ -5,7 +5,7 @@
       color="#43a047"
       dark 
       cols="12" 
-      src="http://reading.zealon.cn/app-bg-02.jpg"
+      src="https://easy-reading-1338135706.cos.ap-guangzhou.myqcloud.com/app-bg-01.png"
       elevation="24"
       dense
     >
@@ -163,6 +163,7 @@
           if(confirm("此操作将注销登录, 是否继续?")){
               this.db.remove("USER")
               this.db.remove("TOKEN")
+              this.db.remove("REFRESHTOKEN")
               this.$router.replace("/login");
           }
         } else if (cmd == 'home'){

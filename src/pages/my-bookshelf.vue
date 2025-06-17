@@ -5,7 +5,7 @@
         dark
         color="#43a047"
         cols="12" 
-        src="http://reading.zealon.cn/app-bg-02.jpg"
+        src="https://easy-reading-1338135706.cos.ap-guangzhou.myqcloud.com/app-bg-01.png"
         elevation="24"
         dense
     >

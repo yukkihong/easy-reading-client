@@ -52,6 +52,7 @@
           if(confirm("此操作将注销登录, 是否继续?")){
             this.db.remove("USER")
             this.db.remove("TOKEN")
+            this.db.remove("REFRESHTOKEN")
             this.$router.replace("/login");
           }
         } else if (cmd == 'home'){

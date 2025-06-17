@@ -1,7 +1,7 @@
 <template>
     <v-app cols="12" sm="12" align="center" offset-sm="3">
         <v-app-bar app color="#43a047" dark dense cols="12" elevation="24"
-            src="http://reading.zealon.cn/app-bg-02.jpg"
+            src="https://easy-reading-1338135706.cos.ap-guangzhou.myqcloud.com/app-bg-01.png"
         >
             <template v-slot:img="{ props }" >
                 <v-img v-bind="props" gradient="to top right, rgba(19,84,122,.5), rgba(128,208,199,.8)"></v-img>

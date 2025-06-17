@@ -5,7 +5,7 @@
       color="#43a047"
       dark 
       cols="12" 
-      src="http://reading.zealon.cn/app-bg-02.jpg"
+      src="https://easy-reading-1338135706.cos.ap-guangzhou.myqcloud.com/app-bg-01.png"
       elevation="24"
     >
       <template v-slot:img="{ props }" >
@@ -101,6 +101,7 @@
                   if (resp.code == 200) {
                     this.db.save("USER", resp.data.user);
                     this.db.save("TOKEN", resp.data.token);
+                    this.db.save("REFRESHTOKEN",resp.data.refreshToken);
                     this.$router.replace('/index');
                   }else{
                     alert(resp.msg);
